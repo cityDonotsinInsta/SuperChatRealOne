@@ -80,7 +80,8 @@ function ChatMessage(props){
     return (<div className = {`message ${messageClass}`}>
     <img src="{photoURL}"/>
     <p>{text}</p>
-    </div>)
+    </div>) 
+    
 }
 
 export default App;
